@@ -1,0 +1,26 @@
+{
+  "name": "@tolbertdesign/frontier",
+  "description": "",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~4.3.0",
+    "markdown-it-html5-embed": "^1.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "vuepress": "^1.4.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

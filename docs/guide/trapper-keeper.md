@@ -1,0 +1,58 @@
+Tk Php Modules
+Final PHP Modules:
+
+bz2
+calendar
+Core
+ctype
+curl
+date
+dba
+dom
+ereg
+exif
+fileinfo
+filter
+ftp
+gd
+gettext
+hash
+iconv
+json
+libxml
+mbstring
+mcrypt
+mhash
+mysql
+mysqli
+newrelic
+openssl
+pcntl
+pcre
+PDO
+pdo_mysql
+Phar
+posix
+readline
+redis
+Reflection
+session
+shmop
+SimpleXML
+soap
+sockets
+SPL
+standard
+sysvmsg
+sysvsem
+sysvshm
+tokenizer
+wddx
+xml
+xmlreader
+xmlwriter
+Zend OPcache
+zip
+zlib
+[Zend Modules]
+Zend OPcache
