@@ -1,56 +1,51 @@
 ---
-title: Vue
+title: Vuex
 lang: en-US
 ---
 
-In effort to optimize our Vue data design. we need to investigate a theory that was derived in our last meeting on how to approach this problem. What we’re going to attempt to do is refactor one (most simple) object to have a corresponding module that manages the data in both the state and the “God” object to prevent breaking any other areas of the code that would be referencing the “God” object.
-
-1. Select an Object to refactor/create a module for
-2. Create a module to handle the getting, setting and mutations of the data in both the State and the “God” object
-3. Very nothing else was unintentionally broken from adding the new module
-4. Have a meeting to review the implementation as a team
+## Directory Structure
 
 <!-- textlint-disable terminology -->
-
-::: vue
-.
-├── docs
-│   ├── .vuepress _(**Optional**)_
-│   │   ├── `components` _(**Optional**)_
-│   │   ├── `theme` _(**Optional**)_
-│   │   │   └── Layout.vue
-│   │   ├── `public` _(**Optional**)_
-│   │   ├── `styles` _(**Optional**)_
-│   │   │   ├── index.styl
-│   │   │   └── palette.styl
-│   │   ├── `templates` _(**Optional, Danger Zone**)_
-│   │   │   ├── dev.html
-│   │   │   └── ssr.html
-│   │   ├── `config.js` _(**Optional**)_
-│   │   └── `enhanceApp.js` _(**Optional**)_
-│   │
-│   ├── README.md
-│   ├── guide
-│   │   └── README.md
-│   └── config.md
-│
-└── package.json
-:::
-
+```
+├── vuex
+│   ├── modules
+│   │   ├── classroom
+│   │   ├── emailer
+│   │   ├── message
+│   │   ├── microsite
+│   │   ├── notification
+│   │   ├── participant
+│   │   ├── payment
+│   │   ├── pledge
+│   │   ├── program
+│   │   ├── sponsor
+│   │   └── user
+│   └── store.js
+```
 <!-- textlint-enable -->
 
 ## Vuex Modules
 
-## Actions
+## `@/vuex/store`
+
+## `state`
 
 ```js
-export const actions = {
-  save: () => {
-  }
+export const state = {
+  lang: Object,
+  s3Bucket: '',
+  minPasswordLength: 0,
+  contentGroup: '',
+  activeTab: 0,
+  states: [],
+  countries: [],
+  forcePageRouteRefresh: false,
 }
 ```
 
-<!-- ![](https://cominex.net/assets/video/vuex_modules.mp4)' -->
+## `getters`
+
+### `actions`
 
 #### Lang
 
@@ -107,3 +102,12 @@ The `Classroom` module
 ```js
 import Classroom from '@/vuex/modules/classroom'
 ```
+
+```js
+export const actions = {
+  save: () => {
+  }
+}
+```
+
+![](https://cominex.net/assets/video/vuex_modules.mp4)'
