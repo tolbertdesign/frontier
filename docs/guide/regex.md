@@ -1,3 +1,0 @@
----
-description: Useful Regex Patterns
----

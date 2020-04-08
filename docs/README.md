@@ -1,8 +1,8 @@
 ---
 home: true
-# heroImage: /hero.png
-heroText: Frontier JAMStack
-tagline: Knowledge Base for our tech tools and systems
+# heroImage: http://cominex.net/assets/img/logos/storybook.png
+heroText: Frontier
+tagline: Documentation for our tech tools and systems
 actionText: Get Started →
 actionLink: /guide/
 features:
@@ -12,5 +12,5 @@ features:
   details: Laravel, Laravel Telescope, Laravel Horizon, Laravel Nova, Laravel Sanctum
 - title: DevOps
   details: Enjoy the dev experience of Vue + webpack, and use Vue components in markdown.
-footer: MIT Licensed | Copyright © 2020-present Booster Tech Team
+# footer: Copyright © 2020-present Booster Tech Team
 ---

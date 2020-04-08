@@ -1,7 +1,7 @@
 ---
 title: Axon
 ---
-## About
+## About Axon
 
 **Axon** attempts to standardize Booster's internal Axios calls by adding a default loading state, default error handling, and simple RESTful endpoints. **Axon** is included globally throughout the project's Vue components and can be accessed by using `vm.$axon`.
 
@@ -31,13 +31,9 @@ The endpoints were designed to be RESTful and to follow Eloquent's naming conven
 
 ```js
 $axon.get('<resource>')
-
 $axon.find('<resource>', '<id>')
-
 $axon.create('<resource>', '<item>')
-
 $axon.update('<resource>', '<id>', '<item>')
-
 $axon.delete('<resource>', '<id>')
 ```
 
@@ -47,13 +43,9 @@ The default loading state can be overwritten by passing in a custom callback fun
 
 ```js
 $axon.get('{ resource }', loadingFn)
-
 $axon.find('{resource }', '<id>', loadingFn)
-
 $axon.create('<resource>', <item>, loadingFn)
-
 $axon.update('<resource>', '<id>', <item>, loadingFn)
-
 $axon.delete('<resource>', '<id>', loadingFn)
 ```
 
@@ -63,13 +55,9 @@ The default error response can be overwritten by passing in a custom callback fu
 
 ```js
 $axon.get('<resource>', loadingFn, errorFn)
-
 $axon.find('<resource>', '<id>', loadingFn, errorFn)
-
 $axon.create('<resource>', '<item>', loadingFn, errorFn)
-
 $axon.update('<resource>', '<id>', '<item>', loadingFn, errorFn)
-
 $axon.delete('<resource>', '<id>', loadingFn, errorFn)
 ```
 

@@ -167,7 +167,7 @@ This is a dangerous warning
 
 ### Buefy light-weight UI components
 
-Currently using [Collapse](https://buefy.org/documentation/collapse), [Modal](https://buefy.org/documentation/modal), [Tabs](https://buefy.org/documentation/tabs) and [Toast](https://buefy.org/documentation/toast)
+Currently using [Collapse](https://buefy.org/documentation/collapse), [Dialog](https://buefy.org/documentation/dialog), [Modal](https://buefy.org/documentation/modal), [Tabs](https://buefy.org/documentation/tabs) and [Toast](https://buefy.org/documentation/toast)
 
 ## Component Inventory
 

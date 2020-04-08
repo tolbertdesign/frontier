@@ -1,24 +1,30 @@
 ---
 title: Vuelidate
+description: Simple, lightweight model-based validation for Vue.js
 ---
 
-## Install plugin
+## About `vuelidate`
 
-```sh
-yarn add vuelidate
-```
+- Simple, lightweight model-based validation for Vue.js 2.0
+- Model based
+- Decoupled from templates
+- Dependency free, minimalistic library
+- [Support for collection validations](https://vuelidate.js.org/#sub-collections-validation)
+- [Support for nested models](https://vuelidate.js.org/#sub-data-nesting)
+- [Contextified validators](https://vuelidate.js.org/#sub-contextified-validators)
+- Easy to use with custom validators (e.g. Moment.js)
+- Support for function composition
+- Validates different data sources: Vuex getters, computed values, etc.
+- High test coverage
 
-## Create <code>@/plugins/vuelidate.js</code> and add the following
+## Examples
 
-```js
-import Vue from 'vue'
-import Vuelidate from 'vuelidate'
+<https://vuelidate.js.org/#examples>
 
-Vue.use(Vuelidate)
-```
-
-## Import the appropriate validators in your component
+## Import the appropriate validators
 
 ```js
 import { required, minLength, email, sameAs } from "vuelidate/lib/validators";
 ```
+
+## Our custom validators
