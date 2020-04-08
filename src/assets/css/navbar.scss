@@ -1,0 +1,25 @@
+.app-navbar {
+  height: 70px;
+  width: 100%;
+  background: var(--bg-nav);
+  color: var(--text);
+}
+
+.app-navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.nav-link { @apply inline-block p-2 font-bold text-gray-500 }
+.nav-link.router-link-exact-active { @apply text-green-400 }
+.nav-link:hover { @apply bg-gray-100 }
+
+.router-link-exact-active {
+  @apply text-white bg-gray-900;
+}
+
+.router-link-exact-active:hover {
+  @apply bg-gray-900;
+}

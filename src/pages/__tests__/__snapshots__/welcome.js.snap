@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`welcome page renders properly 1`] = `
+<div id="welcome-page" class="container mx-auto max-w-sm m-6">
+  <userloginform-stub msg="👋 Welcome to Frontier, a themeable design system"></userloginform-stub>
+</div>
+`;

@@ -1,0 +1,23 @@
+.spinner {
+  transition: opacity 0.15s ease;
+  animation: rotator 1.4s linear infinite;
+  animation-play-state: running;
+}
+
+.spinner.v-enter,
+.spinner.v-leave-active {
+  opacity: 0;
+}
+
+.spinner.v-enter-active,
+.spinner.v-leave {
+  opacity: 1;
+}
+
+.spinner .path {
+  stroke: #f60;
+  stroke-dasharray: 126;
+  stroke-dashoffset: 0;
+  transform-origin: center;
+  animation: dash 1.4s ease-in-out infinite;
+}

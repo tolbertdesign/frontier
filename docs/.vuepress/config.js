@@ -20,12 +20,92 @@ module.exports = {
     // { text: 'Blog', link: '/blog/' },
       // { text: 'Archive', link: '/archive/' },
       // { text: 'RSS Feed', link: '/rss.xml' },
+      // {
+      //   text: 'Ecosystem',
+      //   ariaLabel: 'Backend Menu',
+      //   items: [
+      //     { text: 'Laravel Horizon', link: 'https://tolbert.design/horizon' },
+      //     { text: 'Laravel Nova', link: 'https://tolbert.design/nova' },
+      //     { text: 'Laravel Telescope', link: 'https://tolbert.design/telescope' },
+      //     { text: 'phpMyAdmin', link: 'https://tolbert.design/nova/dashboards/main' },
+      //   ]
+      // },
       {
         text: 'Components',
         ariaLabel: 'Components Menu',
         items: [
-          { text: 'Base', link: '/components/base' },
-          { text: 'Layout', link: '/components/layout' }
+          {
+            text: 'App',
+            items: [
+              {
+                text: 'AppContainer',
+                link: '/components/app/container'
+              },
+              {
+                text: 'AppCookieConsent',
+                link: '/components/app/cookie-consent'
+              },
+            ]
+          },
+          {
+            text: 'Layout',
+            items: [
+              {
+                text: 'DefaultLayout',
+                link: '/components/layouts/default'
+              },
+              {
+                text: 'FullScreenLayout',
+                link: '/components/layouts/full-screen'
+              },
+              {
+                text: 'SidebarLayout',
+                link: '/components/layouts/sidebar'
+              },
+            ]
+          },
+          {
+            text: 'Base',
+            items: [
+              {
+                text: 'Avatar',
+                link: '/components/base/avatar'
+              },
+              {
+                text: 'AvatarGroup',
+                link: '/components/base/avatar-group'
+              },
+              {
+                text: 'Button',
+                link: '/components/base/button'
+              },
+            ]
+          },
+          {
+            text: 'Templates',
+            items: [
+              {
+                text: 'EasyEmailerPage',
+                link: '/components/templates/easy-emailer'
+              },
+              {
+                text: 'EditParticipantPage',
+                link: '/components/templates/edit-participant'
+              },
+              {
+                text: 'EditProfilePage',
+                link: '/components/templates/edit-profile'
+              },
+              {
+                text: 'HowToGetPledges',
+                link: '/components/templates/how-to-get-pledges'
+              },
+              {
+                text: 'SchoolGoalsAndStats',
+                link: '/components/templates/school-goals-and-stats'
+              },
+            ]
+          },
         ]
       },
       { text: 'Demo App', link: 'https://app.tolbert.design' },

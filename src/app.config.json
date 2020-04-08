@@ -1,0 +1,22 @@
+{
+  "title": "Frontier",
+  "version": "0.1.0",
+  "description": "An ever-evolving and opinionated user interface patterns library",
+  "appUrl": "https://app.tolbert.design",
+  "appServerUrl": "https://tolbert.design",
+  "img": "/social.png",
+  "locale": "en_US",
+  "twitter": "design_coder",
+  "themes": {
+    "dark": {
+      "primary": {
+        "bg": "frontier.jpg",
+        "accent": "#ccc",
+        "inverse": "#ccc",
+        "base": "#ccc",
+        "foreground": "#ccc",
+        "background": "#ccc"
+      }
+    }
+  }
+}

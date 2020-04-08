@@ -1,0 +1,5 @@
+import '@/plugins/gravatar'
+import '@/plugins/vue-particles'
+import '@/plugins/portal-vue'
+import '@/plugins/tooltips'
+// import '@/plugins/validation'

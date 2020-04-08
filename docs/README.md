@@ -2,7 +2,7 @@
 home: true
 # heroImage: http://cominex.net/assets/img/logos/storybook.png
 heroText: Frontier
-tagline: Documentation for our tech tools and systems
+tagline: An ever-evolving dev environment for documenting our tech tools and systems
 actionText: Get Started →
 actionLink: /guide/
 features:
@@ -11,6 +11,6 @@ features:
 - title: Laravel
   details: Laravel, Laravel Telescope, Laravel Horizon, Laravel Nova, Laravel Sanctum
 - title: DevOps
-  details: Enjoy the dev experience of Vue + webpack, and use Vue components in markdown.
+  details: Enjoy the dev experience of Vue + webpack, and use Vue components in markdown. git clone git@github.com/Boosterthon/frontier.git
 # footer: Copyright © 2020-present Booster Tech Team
 ---

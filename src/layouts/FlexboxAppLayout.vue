@@ -1,0 +1,181 @@
+<template>
+  <div class="app-wrap">
+
+    <header class="app-header">
+      <a href="#" class="button">
+        <i class="fa fa-arrow-left" />
+        Back
+      </a>
+
+      <h1>FlexBox App Layout</h1>
+
+      <a href="#" class="button">
+        <i class="fa fa-cog" />
+      </a>
+    </header>
+
+    <div class="content">
+      <slot>
+        <div class="border-4 border-dashed border-gray-200 rounded-lg h-96" />
+      </slot>
+    </div>
+
+    <div class="icon-bar">
+      <a href="#">
+        <i class="fa fa-home" />
+        Home
+      </a>
+      <a href="#">
+        <i class="fa fa-bell" />
+        Notifications
+      </a>
+      <a href="#">
+        <i class="fa fa-envelope" />
+        Messages
+      </a>
+      <a href="#">
+        <i class="fa fa-user" />
+        Me
+      </a>
+    </div>
+  </div>
+</template>
+
+<script>
+import { mapGetters } from 'vuex'
+
+export default {
+  name: 'FlexboxAppLayout',
+  computed: {
+    ...mapGetters({
+      user: 'auth/user',
+      loggedIn: 'auth/loggedIn',
+    }),
+  },
+}
+</script>
+
+<style scoped>
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  font-size: 1.5rem;
+  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+
+a {
+  color:white;
+  text-decoration: none;
+}
+
+a.button {
+  background:rgba(0,0,0,0.1);
+  padding:1rem 1.5rem;
+  border-radius:4px;
+}
+
+.app-wrap {
+  max-width:540px;
+  height: 90vh;
+  margin: 5vh auto 5vh auto;
+  border:10px solid rgba(0,0,0,0.8);
+  border-bottom-width: 70px;
+  border-radius:10px;
+  box-shadow:0 0 50px  rgba(0,0,0,0.3);
+}
+
+.content {
+  padding:20px;
+  background:white;
+  box-shadow:inset 0 5px 0 rgba(0,0,0,0.1);
+  line-height: 1.6;
+}
+
+.content img {
+  max-width:50%;
+  float:left;
+  margin-right: 10px;
+}
+
+.icon-bar a {
+  text-align: center;
+  padding:1.5rem;
+  border-left:1px solid rgba(0,0,0,0.1);
+  background:#EFCA51;
+  color:rgba(0,0,0,0.5);
+}
+
+.icon-bar a:first-child {
+  border-left: 0;
+}
+
+.icon-bar a:first-child, .icon-bar a:hover {
+  border-bottom: 5px solid rgba(0,0,0,0.1);
+}
+
+.icon-bar {
+  border-top: 1px solid #E6E6E6;
+}
+
+.icon-bar i {
+  display: block;
+  font-size: 2.5rem;
+  color:white;
+  text-shadow:3px 3px 0 rgba(0,0,0,0.1);
+  padding-bottom: 1rem;
+}
+
+.app-header {
+  backgroud-color:rgba(0,0,0,0.5);
+  color:#F0CB45;
+  padding:1rem;
+}
+
+/*
+  Overall Layout
+*/
+
+.app-wrap {
+  display:flex;
+  flex-direction:column;
+}
+
+.app-wrap > * {
+  flex:1 1 auto;
+}
+
+/*
+  Header
+*/
+
+.app-header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+/*
+  Content
+*/
+
+.content {
+  overflow-y:scroll;
+  -webkit-overflow-scrolling:touch;
+}
+
+/*
+  Icon Bar
+*/
+
+.icon-bar {
+  display:flex;
+}
+
+.icon-bar a {
+  flex:1;
+}
+</style>
