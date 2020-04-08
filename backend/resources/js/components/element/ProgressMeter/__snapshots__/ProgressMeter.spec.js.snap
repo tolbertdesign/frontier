@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressMeter Snapshop test for ProgressMeter 1`] = `
+<div class="meter background color class"><span class="meter-1 bg-primary" style="width: 20%;"></span> <span class="valueDisplay font-semibold" style="right: 80%;">
+        value to display
+    </span> <span class="meter-2" style="width: 60%;"></span></div>
+`;

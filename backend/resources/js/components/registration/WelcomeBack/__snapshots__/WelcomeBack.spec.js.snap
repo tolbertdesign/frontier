@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomeBack Snapshop test for beta user WelcomeBack 1`] = `
+<div>
+  <h1 class="text-48 mw-200px mx-auto">welcome back</h1>
+  <p class="mt-12"><a href="/v3/home/dashboard" class="btn btn-white-outline btn-813-dk-grey-outline btn-round mb-4 py-2 d-block mw-200px mx-auto text-15 w-200px">back to dashboard</a>
+    <!----> <button class="btn btn-primary btn-round py-2 d-block mw-200px mx-auto mb-4 btn-drop-shadow text-15 w-200px">I am a parent</button> <button class="btn btn-success btn-round py-2 d-block mw-200px mx-auto mb-4 text-15 w-200px">I am a teacher</button> <a data-toggle="modal" data-target="#sponsorInstructionModal" href="#" class="btn btn-white-outline btn-813-dk-grey-outline btn-round py-2 d-block mw-200px mx-auto text-15 w-200px">I am a sponsor</a> <a id="regButtonsExplanationModalAnchor" data-toggle="modal" data-target="#regButtonsExplanationModal" href="#" class="py-3 d-block mw-200px mx-auto text-15 text-white font-weight-bold">what does this mean</a></p>
+</div>
+`;
+
+exports[`WelcomeBack Snapshop test for default WelcomeBack 1`] = `
+<div>
+  <h1 class="text-48 mw-200px mx-auto">welcome back</h1>
+  <p class="mt-12">
+    <!---->
+    <!----> <button class="btn btn-primary btn-round py-2 d-block mw-200px mx-auto mb-4 btn-drop-shadow text-15 w-200px">I am a parent</button> <button class="btn btn-success btn-round py-2 d-block mw-200px mx-auto mb-4 text-15 w-200px">I am a teacher</button> <a data-toggle="modal" data-target="#sponsorInstructionModal" href="#" class="btn btn-white-outline btn-813-dk-grey-outline btn-round py-2 d-block mw-200px mx-auto text-15 w-200px">I am a sponsor</a> <a id="regButtonsExplanationModalAnchor" data-toggle="modal" data-target="#regButtonsExplanationModal" href="#" class="py-3 d-block mw-200px mx-auto text-15 text-white font-weight-bold">what does this mean</a></p>
+</div>
+`;
+
+exports[`WelcomeBack Snapshop test for org admin and beta banner user WelcomeBack 1`] = `
+<div>
+  <h1 class="text-48 mw-200px mx-auto">welcome back</h1>
+  <p class="mt-12">
+    <!----> <a href="/v3/tkdashboard/?redirect=admin" class="btn btn-white-outline btn-813-dk-grey-outline btn-round mb-4 py-2 d-block mw-200px mx-auto text-15 w-200px">admin dashboard</a> <button class="btn btn-primary btn-round py-2 d-block mw-200px mx-auto mb-4 btn-drop-shadow text-15 w-200px">I am a parent</button> <button class="btn btn-success btn-round py-2 d-block mw-200px mx-auto mb-4 text-15 w-200px">I am a teacher</button> <a data-toggle="modal" data-target="#sponsorInstructionModal" href="#" class="btn btn-white-outline btn-813-dk-grey-outline btn-round py-2 d-block mw-200px mx-auto text-15 w-200px">I am a sponsor</a> <a id="regButtonsExplanationModalAnchor" data-toggle="modal" data-target="#regButtonsExplanationModal" href="#" class="py-3 d-block mw-200px mx-auto text-15 text-white font-weight-bold">what does this mean</a></p>
+</div>
+`;
+
+exports[`WelcomeBack Snapshop test for org admin user WelcomeBack 1`] = `
+<div>
+  <h1 class="text-48 mw-200px mx-auto">welcome back</h1>
+  <p class="mt-12">
+    <!----> <a href="/v3/tkdashboard/?redirect=admin" class="btn btn-white-outline btn-813-dk-grey-outline btn-round mb-4 py-2 d-block mw-200px mx-auto text-15 w-200px">admin dashboard</a> <button class="btn btn-primary btn-round py-2 d-block mw-200px mx-auto mb-4 btn-drop-shadow text-15 w-200px">I am a parent</button> <button class="btn btn-success btn-round py-2 d-block mw-200px mx-auto mb-4 text-15 w-200px">I am a teacher</button> <a data-toggle="modal" data-target="#sponsorInstructionModal" href="#" class="btn btn-white-outline btn-813-dk-grey-outline btn-round py-2 d-block mw-200px mx-auto text-15 w-200px">I am a sponsor</a> <a id="regButtonsExplanationModalAnchor" data-toggle="modal" data-target="#regButtonsExplanationModal" href="#" class="py-3 d-block mw-200px mx-auto text-15 text-white font-weight-bold">what does this mean</a></p>
+</div>
+`;

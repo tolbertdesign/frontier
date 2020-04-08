@@ -3,6 +3,7 @@
 namespace App\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful;
 
 class Kernel extends HttpKernel
 {
@@ -14,12 +15,12 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
-        \App\Http\Middleware\TrustProxies::class,
         \Fruitcake\Cors\HandleCors::class,
         \App\Http\Middleware\CheckForMaintenanceMode::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
+        \App\Http\Middleware\TrustProxies::class,
     ];
 
     /**
@@ -36,12 +37,17 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            \App\Http\Middleware\CheckHideCookieBanner::class,
         ],
 
         'api' => [
+            EnsureFrontendRequestsAreStateful::class,
             'throttle:60,1',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
+        'auth' => [
+            \Illuminate\Auth\Middleware\Authenticate::class,
+        ]
     ];
 
     /**
@@ -52,15 +58,17 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \App\Http\Middleware\Authenticate::class,
-        'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'bindings' => \Illuminate\Routing\Middleware\SubstituteBindings::class,
-        'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
-        'can' => \Illuminate\Auth\Middleware\Authorize::class,
-        'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
-        'password.confirm' => \Illuminate\Auth\Middleware\RequirePassword::class,
-        'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
-        'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-        'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+        // 'auth' => \App\Http\Middleware\Authenticate::class,
+        // 'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
+        // 'password.confirm' => \Illuminate\Auth\Middleware\RequirePassword::class,
+        // 'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
+        // 'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+        'auth.basic'         => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
+        'bindings'           => \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        'can'                => \Illuminate\Auth\Middleware\Authorize::class,
+        'guest'              => \App\Http\Middleware\RedirectIfAuthenticated::class,
+        'throttle'           => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'role'               => \Spatie\Permission\Middlewares\RoleMiddleware::class,
+        'permission'         => \Spatie\Permission\Middlewares\PermissionMiddleware::class,
     ];
 }

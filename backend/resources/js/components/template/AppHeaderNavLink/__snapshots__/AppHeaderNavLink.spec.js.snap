@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeaderNavLink Snapshop test for AppHeaderNavLink 1`] = `
+<a class="m-0 p-4 px-4 font-medium text-gray-dark border-b border-grey-light hover:text-blue-darker hover:bg-grey-lighter">
+  <div class="slot"></div>
+</a>
+`;

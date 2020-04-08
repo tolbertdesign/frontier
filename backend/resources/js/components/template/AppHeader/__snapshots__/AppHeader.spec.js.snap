@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppHeader matches snapshot 1`] = `
+<header class="app-header fixed w-full px-6 shadow text-white bg-blue bg-cover bg-center z-10">
+  <div class="container flex items-center justify-between w-full mx-auto max-w-xl">
+    <div class="flex"><button type="button" aria-label="Menu" class="inline-block text-white focus:outline-none focus:text-white visible">
+        <fontawesomeicon-stub icon="far,bars" class="fa-2x text-white"></fontawesomeicon-stub>
+      </button></div>
+  </div>
+  <div>
+    <div class="z-10 fixed pin transition-opacity" style="display: none;">
+      <div tabindex="-1" class="absolute pin bg-black opacity-50"></div>
+    </div>
+    <nav class="ocm z-10 absolute  max-w-xs pin-t pin-r right-0 mr-0 w-full bg-white transition-transform shadow-lg" style="display: none;"><button type="button" aria-label="Close" class="absolute mt-4 -ml-8 inline-block text-white focus:outline-none focus:text-white">
+        <fontawesomeicon-stub icon="fal,times" class="fa-2x text-white"></fontawesomeicon-stub>
+      </button>
+      <div class="max-h-screen overflow-y-auto">
+        <div class="relative z-10 bg-white"></div>
+        <div class="relative z-10 bg-white">
+          <appheadernavsection-stub>
+
+          </appheadernavsection-stub>
+          <appheadernavlink-stub href="/v3/register/participant">
+
+          </appheadernavlink-stub>
+          <appheadernavlink-stub href="#">
+
+          </appheadernavlink-stub>
+        </div>
+        <div class="relative z-10 bg-white pb-32 lg:pb-0">
+          <appheadernavsection-stub>
+
+          </appheadernavsection-stub>
+          <!---->
+          <routerlink-stub to="[object Object]" tag="a" event="click" class="m-0 p-4 px-4 font-medium text-blue-dark border-grey-light focus:text-blue-darker hover:text-blue-darker active:text-blue-darker hover:bg-grey-lighter border-b">
+
+          </routerlink-stub>
+          <appheadernavlink-stub href="/v3/tkdashboard/?redirect=home/help">
+
+          </appheadernavlink-stub>
+          <appheadernavlink-stub href="/v3/logout">
+
+          </appheadernavlink-stub>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+`;

@@ -12,6 +12,8 @@ class EncryptCookies extends Middleware
      * @var array
      */
     protected $except = [
-        //
+        'use_new_public_page',
+        'hide_cookie_policy',
+        'ref_code',
     ];
 }

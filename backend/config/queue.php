@@ -62,10 +62,21 @@ return [
         'redis' => [
             'driver' => 'redis',
             'connection' => 'default',
-            'queue' => env('REDIS_QUEUE', 'default'),
+            'queue' => env('REDIS_QUEUE', 'titan_dashboard_default'),
             'retry_after' => 90,
             'block_for' => null,
         ],
+
+        'mercury' => [
+            'driver'      => env('MERCURY_DRIVER', 'redis'),
+            'connection'  => env('MERCURY_CONNECTION', null),
+            'queue'       => env('MERCURY_QUEUE', 'mercury_global_queue'),
+            'retry_after' => '90',
+            'key'         => env('MERCURY_SQS_KEY', 'your-public-key'),
+            'secret'      => env('MERCURY_SQS_SECRET', 'your-secret-key'),
+            'prefix'      => env('MERCURY_SQS_PREFIX', 'https://sqs.us-east-1.amazonaws.com/your-account-id'),
+            'region'      => env('MERCURY_SQS_REGION', 'us-east-1'),
+        ]
 
     ],
 

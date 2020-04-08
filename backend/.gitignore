@@ -10,3 +10,14 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+
+*.DS_Store
+fabfile.pyc
+database.sqlite
+
+coverage
+.eslintcache
+
+@fake-server
+@frontier
+zoe

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DayAfterFunrun Snapshop test for DayAfterFunrun 1`] = `
+<p>
+  To: School Families
+  <br>
+  When: Day After Event
+  <br>
+  Subject: Thank you for your support!
+  <br><br>
+  event name Families,
+  <br><br>
+  Thank you so much for supporting this year’s <strong> event name!</strong>
+  The program was a huge success, and I know everyone had so much fun! There’s just one more thing left to do.
+  <br><br> <strong>We need your help collecting all of our pledges.</strong>
+  As a class, we raised <strong>$500</strong> — our goal is to collect 100% of all pledges by due date.
+  <br><br>All sponsors that included their email address when making a pledge will receive an email reminder and instructions to pay for their pledge.
+  Please reach out to those sponsors who did NOT include their email address to let them know they can send cash or check to you, which will then be sent to school in your child's collection envelope (coming home soon).
+  <br><br>Finally, please encourage your student to thank all of their sponsors for helping our school!
+  <br><br>Thank you again for your support! Let me know if you have any questions.<br></p>
+`;

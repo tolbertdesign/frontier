@@ -63,6 +63,44 @@ return [
             ]) : [],
         ],
 
+        // 'mysql' => [
+        //     'driver' => 'mysql',
+        //     'read'   => [
+        //         'host' => [env('DB_READ_HOST', '127.0.0.1')]
+        //     ],
+        //     'write' => [
+        //         'host' => [env('DB_WRITE_HOST', '127.0.0.1')]
+        //     ],
+        //     'port'        => env('DB_PORT', '3306'),
+        //     'database'    => env('DB_DATABASE', 'forge'),
+        //     'username'    => env('DB_USERNAME', 'forge'),
+        //     'password'    => env('DB_PASSWORD', ''),
+        //     'unix_socket' => env('DB_SOCKET', ''),
+        //     'charset'     => 'utf8mb4',
+        //     'collation'   => 'utf8mb4_unicode_ci',
+        //     'prefix'      => '',
+        //     'strict'      => true,
+        //     'engine'      => null,
+        //     'modes'       => [
+        //         // Laravel adds the following modes by default once strict mode is enabled
+        //         // See here: https://github.com/laravel/framework/issues/14997#issuecomment-242129087
+        //         // For supporting group_by with multiple columns on 5.6 RDS instances, we have removed the ONLY_FULL_GROUP_BY mode
+        //         // TODO: Once all RDS instances are upgraded to 5.7, we can remove this 'modes' array
+        //         'STRICT_TRANS_TABLES',
+        //         'NO_ZERO_IN_DATE',
+        //         'NO_ZERO_DATE',
+        //         'ERROR_FOR_DIVISION_BY_ZERO',
+        //         'NO_AUTO_CREATE_USER',
+        //         'NO_ENGINE_SUBSTITUTION'
+        //         // 'ONLY_FULL_GROUP_BY'
+        //     ],
+        //     'options'     => [
+        //         PDO::MYSQL_ATTR_SSL_CA                 => base_path(env('DB_CA_CERT')),
+        //         PDO::MYSQL_ATTR_SSL_VERIFY_SERVER_CERT => env('DB_CA_VERIFY')
+        //     ],
+        // ],
+
+
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
@@ -123,7 +161,7 @@ return [
 
         'options' => [
             'cluster' => env('REDIS_CLUSTER', 'redis'),
-            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_database_'),
+            'prefix' => env('REDIS_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_') . '_database_'),
         ],
 
         'default' => [
@@ -141,7 +179,12 @@ return [
             'port' => env('REDIS_PORT', '6379'),
             'database' => env('REDIS_CACHE_DB', '1'),
         ],
-
+        'mercury' => [
+            'host'     => env('REDIS_HOST', '127.0.0.1'),
+            'password' => env('REDIS_PASSWORD', null),
+            'port'     => env('REDIS_PORT', 6379),
+            'database' => env('REDIS_DB', 0),
+        ]
     ],
 
 ];

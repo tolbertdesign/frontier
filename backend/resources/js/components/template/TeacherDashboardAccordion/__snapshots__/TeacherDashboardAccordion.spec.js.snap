@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeacherDashboardAccordion Snapshop test for TeacherDashboardAccordion 1`] = `
+<div>
+  <accordion-stub title="Program Overview" content="" shouldreslick="true">
+    <programoverview-stub program="[object Object]"></programoverview-stub>
+  </accordion-stub>
+  <accordion-stub title="School Goal and Stats" content="" shouldreslick="true">
+    <schoolgoalandstats-stub program="[object Object]"></schoolgoalandstats-stub>
+  </accordion-stub>
+  <accordion-stub title="Share Student Star Video" content="" shouldreslick="true">
+    <studentstarvideo-stub program="[object Object]" videoid="383087736"></studentstarvideo-stub>
+  </accordion-stub>
+  <accordion-stub title="How To Get Pledges" content="" shouldreslick="true">
+    <howtogetpledges-stub program="[object Object]"></howtogetpledges-stub>
+  </accordion-stub>
+  <accordion-stub title="Pledges" content="" shouldreslick="true">
+    <pledgeinfo-stub program="[object Object]"></pledgeinfo-stub>
+  </accordion-stub>
+  <accordion-stub title="Business Leaderboard" content="" isopen="true" shouldreslick="true">
+    <businessleaderboard-stub program="[object Object]"></businessleaderboard-stub>
+  </accordion-stub>
+</div>
+`;
+
+exports[`TeacherDashboardAccordion Snapshop test for TeacherDashboardAccordion with ssv_disabled turned on 1`] = `
+<div>
+  <accordion-stub title="Program Overview" content="" shouldreslick="true">
+    <programoverview-stub program="[object Object]"></programoverview-stub>
+  </accordion-stub>
+  <accordion-stub title="School Goal and Stats" content="" shouldreslick="true">
+    <schoolgoalandstats-stub program="[object Object]"></schoolgoalandstats-stub>
+  </accordion-stub>
+  <accordion-stub title="How To Get Pledges" content="" shouldreslick="true">
+    <howtogetpledges-stub program="[object Object]"></howtogetpledges-stub>
+  </accordion-stub>
+  <accordion-stub title="Pledges" content="" shouldreslick="true">
+    <pledgeinfo-stub program="[object Object]"></pledgeinfo-stub>
+  </accordion-stub>
+  <accordion-stub title="Business Leaderboard" content="" isopen="true" shouldreslick="true">
+    <businessleaderboard-stub program="[object Object]"></businessleaderboard-stub>
+  </accordion-stub>
+</div>
+`;

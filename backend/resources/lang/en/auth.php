@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
+    'failed' => 'Oops! Looks like something is not right. Make sure you use a valid email and the correct password associated with that email.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-
+    'access_token_invalid'  => 'An internal error has occurred. Please try logging in again.',
 ];

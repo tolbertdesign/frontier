@@ -1,0 +1,61 @@
+.default-profile-image {
+    height: 100px;
+    text-align: center;
+    line-height: 97px;
+    background: #bbb;
+    color: white;
+    font-size: 75px;
+}
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+.centered-child {
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.vertical-stretch {
+    top: 0;
+    bottom: 0;
+}
+
+.absolute-right {
+    right: 0;
+}
+
+.force-wrap {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+.page-header-text {
+    font-size: 1.2rem;
+}
+.page-header-logo {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+@media (min-width: 992px) {
+    .page-header-text {
+        font-size: 1.8125rem;
+    }
+    .page-header-logo {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+}

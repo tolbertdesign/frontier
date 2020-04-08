@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoPlayer Snapshop test for parent VideoPlayer and has correct preset video for parents 1`] = `
+<div>
+  <figure class="image is-16by9 mb-4">
+    <videoiframe-stub source="youtube" videoid="98765432" color="ffffff" configid="JcxcCN5H"></videoiframe-stub>
+  </figure>
+  <!---->
+  <btabs-stub value="0" animated="true">
+    <btabitem-stub visible="true"><template></template>
+      <videogallery-stub videos="[object Object],[object Object]" selectedvideoid="98765432"></videogallery-stub>
+    </btabitem-stub>
+  </btabs-stub>
+  <!---->
+</div>
+`;
+
+exports[`VideoPlayer Snapshop test for teacher VideoPlayer and has correct preset video for teachers 1`] = `
+<div>
+  <figure class="image is-16by9 mb-4">
+    <videoiframe-stub source="vimeo" videoid="12345678" color="ffffff" configid="JcxcCN5H"></videoiframe-stub>
+  </figure> <span class="hidden md:inline absolute content-library-button"><contentlibrarybutton-stub></contentlibrarybutton-stub></span>
+  <btabs-stub value="0" animated="true">
+    <btabitem-stub visible="true"><template></template>
+      <videogallery-stub videos="[object Object],[object Object]" selectedvideoid="12345678"></videogallery-stub>
+    </btabitem-stub>
+  </btabs-stub>
+  <div class="md:hidden text-center">
+    <contentlibrarybutton-stub></contentlibrarybutton-stub>
+  </div>
+</div>
+`;

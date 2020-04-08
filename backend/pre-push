@@ -1,0 +1,38 @@
+#!/bin/bash
+
+EXIT_STATUS=0
+
+yarn build
+if [ $? -ne 0 ]; then
+    EXIT_STATUS=1
+fi
+
+yarn build-testdb
+if [ $? -ne 0 ]; then
+    EXIT_STATUS=1
+fi
+
+yarn syntax-check-php
+if [ $? -ne 0 ]; then
+    EXIT_STATUS=1
+fi
+
+php artisan cache:clear
+
+./vendor/bin/phpunit --testdox
+if [ $? -ne 0 ]; then
+    EXIT_STATUS=1
+fi
+
+php artisan dusk --testdox
+if [ $? -ne 0 ]; then
+    EXIT_STATUS=1
+fi
+
+
+if [ $EXIT_STATUS -ne 0 ]; then
+  echo ""
+  echo -e $'\e[0;31mABORTING: errors.\e[0m' >&2
+  echo ""
+fi
+exit $EXIT_STATUS

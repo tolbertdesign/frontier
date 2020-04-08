@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailTemplatesModal it renders correctly with 1 participant 1`] = `
+<accordionmodal-stub header="Emails We Send" content="" footer="" class="mx-4">
+  <accordion-stub title="" content="" animation="zoom-out"><template></template>
+    <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+      <p class="mb-4">Sponsor Name,</p>
+      <p class="mb-4">
+        Coming up, Megan is participating in the Event Name and is helping raise funds for Funds are needed for technology. Megan will complete 30-35 laps in the Event Name as a $100 per lap pledge goal. Will you help us?
+      </p>
+      <p class="mb-4"><a href="/a/s/AbCdEf">
+          Click here to support participants
+        </a></p>
+      <p class="mb-4">
+        Thank you
+      </p>
+      <p class="mb-4">- Martha</p>
+    </div>
+  </accordion-stub>
+  <accordion-stub title="" content="" animation="zoom-out"><template></template>
+    <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+      <p class="mb-4">Sponsor Name,</p>
+      <p class="mb-4">
+        Coming up, Megan is participating in the Event Name and is helping raise funds for Funds are needed for technology. Megan will complete 30-35 laps in the Event Name as a $100 per lap pledge goal. Will you help us?
+      </p>
+      <p class="mb-4"><a href="/a/s/gHiJkL">
+          Click here to support participants
+        </a></p>
+      <p class="mb-4">
+        Thank you
+      </p>
+      <p class="mb-4">- Martha</p>
+    </div>
+  </accordion-stub>
+  <accordion-stub title="" content="" animation="zoom-out"><template></template>
+    <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+      <p class="mb-4">Sponsor Name,</p>
+      <p class="mb-4">
+        Coming up, Megan is participating in the Event Name and is helping raise funds for Funds are needed for technology. Megan will complete 30-35 laps in the Event Name as a $100 per lap pledge goal. Will you help us?
+      </p>
+      <p class="mb-4"><a href="/a/s/mNoPqR">
+          Click here to support participants
+        </a></p>
+      <p class="mb-4">
+        Thank you
+      </p>
+      <p class="mb-4">- Martha</p>
+    </div>
+  </accordion-stub> <template></template>
+</accordionmodal-stub>
+`;
+
+exports[`EmailTemplatesModal it renders correctly with 2 participants 1`] = `
+<accordionmodal-stub header="Emails We Send" content="" footer="" class="mx-4">
+  <accordion-stub title="" content="" animation="zoom-out"><template></template>
+    <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+      <p class="mb-4">Sponsor Name,</p>
+      <p class="mb-4">
+        Coming up, Megan &amp; Sallie are participating in the Event Name and are helping raise funds for Funds are needed for technology. Megan &amp; Sallie will complete 30-35 laps in the Event Name as a $100 per lap pledge goal. Will you help us?
+      </p>
+      <p class="mb-4"><a href="/a/s/AbCdEf">
+          Click here to support participants
+        </a></p>
+      <p class="mb-4">
+        Thank you
+      </p>
+      <p class="mb-4">- Martha</p>
+    </div>
+  </accordion-stub>
+  <accordion-stub title="" content="" animation="zoom-out"><template></template>
+    <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+      <p class="mb-4">Sponsor Name,</p>
+      <p class="mb-4">
+        Coming up, Megan &amp; Sallie are participating in the Event Name and are helping raise funds for Funds are needed for technology. Megan &amp; Sallie will complete 30-35 laps in the Event Name as a $100 per lap pledge goal. Will you help us?
+      </p>
+      <p class="mb-4"><a href="/a/s/gHiJkL">
+          Click here to support participants
+        </a></p>
+      <p class="mb-4">
+        Thank you
+      </p>
+      <p class="mb-4">- Martha</p>
+    </div>
+  </accordion-stub>
+  <accordion-stub title="" content="" animation="zoom-out"><template></template>
+    <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+      <p class="mb-4">Sponsor Name,</p>
+      <p class="mb-4">
+        Coming up, Megan &amp; Sallie are participating in the Event Name and are helping raise funds for Funds are needed for technology. Megan &amp; Sallie will complete 30-35 laps in the Event Name as a $100 per lap pledge goal. Will you help us?
+      </p>
+      <p class="mb-4"><a href="/a/s/mNoPqR">
+          Click here to support participants
+        </a></p>
+      <p class="mb-4">
+        Thank you
+      </p>
+      <p class="mb-4">- Martha</p>
+    </div>
+  </accordion-stub> <template></template>
+</accordionmodal-stub>
+`;
+
+exports[`EmailTemplatesModal it renders correctly with 3 or more participants 1`] = `
+<accordionmodal-stub header="Emails We Send" content="" footer="" class="mx-4">
+  <accordion-stub title="" content="" animation="zoom-out"><template></template>
+    <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+      <p class="mb-4">Sponsor Name,</p>
+      <p class="mb-4">
+        Coming up, Megan, Sallie, and Mary are participating in the Event Name and are helping raise funds for Funds are needed for technology. Megan, Sallie, and Mary will complete 30-35 laps in the Event Name as a $100 per lap pledge goal. Will you help us?
+      </p>
+      <p class="mb-4"><a href="/a/s/AbCdEf">
+          Click here to support participants
+        </a></p>
+      <p class="mb-4">
+        Thank you
+      </p>
+      <p class="mb-4">- Martha</p>
+    </div>
+  </accordion-stub>
+  <accordion-stub title="" content="" animation="zoom-out"><template></template>
+    <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+      <p class="mb-4">Sponsor Name,</p>
+      <p class="mb-4">
+        Coming up, Megan, Sallie, and Mary are participating in the Event Name and are helping raise funds for Funds are needed for technology. Megan, Sallie, and Mary will complete 30-35 laps in the Event Name as a $100 per lap pledge goal. Will you help us?
+      </p>
+      <p class="mb-4"><a href="/a/s/gHiJkL">
+          Click here to support participants
+        </a></p>
+      <p class="mb-4">
+        Thank you
+      </p>
+      <p class="mb-4">- Martha</p>
+    </div>
+  </accordion-stub>
+  <accordion-stub title="" content="" animation="zoom-out"><template></template>
+    <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+      <p class="mb-4">Sponsor Name,</p>
+      <p class="mb-4">
+        Coming up, Megan, Sallie, and Mary are participating in the Event Name and are helping raise funds for Funds are needed for technology. Megan, Sallie, and Mary will complete 30-35 laps in the Event Name as a $100 per lap pledge goal. Will you help us?
+      </p>
+      <p class="mb-4"><a href="/a/s/mNoPqR">
+          Click here to support participants
+        </a></p>
+      <p class="mb-4">
+        Thank you
+      </p>
+      <p class="mb-4">- Martha</p>
+    </div>
+  </accordion-stub> <template></template>
+</accordionmodal-stub>
+`;

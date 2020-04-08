@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PledgeAndShare Snapshop test for PledgeAndShare 1`] = `
+<section class="bg-white px-6 max-w-sm lg:max-w-lg mx-auto">
+  <div class="text-center my-4">
+    <pledgebutton-stub participants="[object Object],[object Object]"></pledgebutton-stub> <button class="button is-medium is-secondary is-rounded is-fullwidth mb-4">
+      Ask Previous Sponsors
+    </button> <button class="button is-medium is-secondary is-outlined is-rounded is-fullwidth">
+      Pay Pledges
+    </button>
+  </div>
+  <sharebuttons-stub participants="[object Object],[object Object]" program="[object Object]" ga_page_location="Student Card Header Section" ga_site_location="Parent Dashboard"></sharebuttons-stub>
+</section>
+`;

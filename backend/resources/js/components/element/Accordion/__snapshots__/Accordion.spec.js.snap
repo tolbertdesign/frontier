@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Snapshop test for closed Accordion 1`] = `
+<div>
+  <bcollapse-stub animation="fade" ariaid="" class="card shadow-none border-t-2 border-grey-light">
+    <div>default slot</div>
+  </bcollapse-stub>
+</div>
+`;
+
+exports[`Accordion Snapshop test for open Accordion 1`] = `
+<div>
+  <bcollapse-stub open="true" animation="fade" ariaid="" class="card shadow-none border-t-2 border-grey-light">
+    <div>default slot</div>
+  </bcollapse-stub>
+</div>
+`;

@@ -1,4 +1,8 @@
-Learn to Flatten and Flatmap Arrays with Reduce
+---
+title: Reduce
+---
+
+## Learn to Flatten and Flatmap Arrays with Reduce
 
 ```js
 var input = [
@@ -42,4 +46,4 @@ var input = [
     ]
   }
 ];
-```z
+```

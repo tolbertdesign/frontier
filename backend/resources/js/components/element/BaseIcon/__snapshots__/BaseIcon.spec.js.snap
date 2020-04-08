@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseIcon Snapshop test for BaseIcon 1`] = `
+<div class="icon-wrapper"><svg width="width" height="height" class="icon">
+    <use xlink:href="/v3-assets/dashboard/icons.svg#name"></use>
+  </svg> </div>
+`;

@@ -1,26 +1,115 @@
 {
-    "name": "laravel/laravel",
+    "name": "tolbertdesign/system",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "A sandbox of opinionated tools for exploring ideas",
     "keywords": [
-        "framework",
-        "laravel"
+        "laravel",
+        "sanctum",
+        "vue",
+        "nuxt"
     ],
-    "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/VictorTolbert/hookable"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/VictorTolbert/eloquence-base"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/VictorTolbert/eloquence-mappable"
+        }
+    ],
     "require": {
-        "php": "^7.2.5",
-        "fideloper/proxy": "^4.2",
+        "php": "^7.4",
+        "ext-json": "*",
+        "algolia/algoliasearch-client-php": "^2.2",
+        "aws/aws-sdk-php": "~3.0",
+        "barryvdh/laravel-dompdf": "^0.8.6",
+        "calebporzio/sushi": "^2.0",
+        "christophrumpel/laravel-factories-reloaded": "^v0.0.15",
+        "dyrynda/laravel-make-user": "^7.0",
+        "fideloper/proxy": "^4.0",
+        "firebase/php-jwt": "^5.0",
         "fruitcake/laravel-cors": "^1.0",
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^6.5",
+        "iatstuti/laravel-cascade-soft-deletes": "^3.0",
+        "inertiajs/inertia-laravel": "^0.2.5",
+        "intervention/image": "^2.5",
+        "kitetail/zttp": "^0.6.0",
+        "knplabs/github-api": "^2.8",
+        "laravel-notification-channels/aws-sns": "^1.1",
+        "laravel-notification-channels/discord": "^1.1",
+        "laravel-notification-channels/facebook": "^0.1.0",
+        "laravel-notification-channels/facebook-poster": "^3.0",
+        "laravel-notification-channels/telegram": "^0.2.0",
+        "laravel-notification-channels/trello": "^1.2",
+        "laravel-notification-channels/twitter": "^4.0",
+        "laravel-notification-channels/webhook": "^2.0",
         "laravel/framework": "^7.0",
-        "laravel/tinker": "^2.0"
+        "laravel/horizon": "^4.2",
+        "laravel/nova": "*",
+        "laravel/sanctum": "^2.0",
+        "laravel/scout": "^8.0",
+        "laravel/slack-notification-channel": "^2.0",
+        "laravel/socialite": "^v4.3.2",
+        "laravel/telescope": "^3.2",
+        "laravel/tinker": "~v2.3.0",
+        "laravel/ui": "^2.0",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "league/glide": "^1.5",
+        "livewire/livewire": "dev-master",
+        "maatwebsite/excel": "^3.1",
+        "moneyphp/money": "^3.3",
+        "mtolhuys/laravel-schematics": "^0.9.9",
+        "nothingworks/blade-svg": "^0.3.4",
+        "predis/predis": "dev-master",
+        "pusher/pusher-php-server": "^4.0",
+        "reinink/remember-query-strings": "^0.1.0",
+        "sofa/eloquence-base": "dev-fork",
+        "sofa/eloquence-mappable": "dev-fork",
+        "sofa/hookable": "dev-fork",
+        "spatie/image": "^1.7",
+        "spatie/laravel-activitylog": "^3.11",
+        "spatie/laravel-analytics": "^3.9",
+        "spatie/laravel-backup": "^6.8",
+        "spatie/laravel-flash": "^1.5",
+        "spatie/laravel-json-api-paginate": "^1.7",
+        "spatie/laravel-menu": "^3.5",
+        "spatie/laravel-model-status": "^1.10",
+        "spatie/laravel-permission": "^3.11",
+        "spatie/laravel-query-builder": "^2.8",
+        "spatie/laravel-view-models": "^1.3",
+        "spatie/schema-org": "^2.0",
+        "spatie/valuestore": "^1.2",
+        "stevebauman/purify": "v3.0.2",
+        "stripe/stripe-php": "^6.8",
+        "tightenco/ziggy": "^0.9.0",
+        "tymon/jwt-auth": "^1.0",
+        "wildbit/swiftmailer-postmark": "^3.1"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2",
+        "barryvdh/laravel-ide-helper": "^2.6",
+        "beyondcode/laravel-dump-server": "^1.4",
         "facade/ignition": "^2.0",
+        "friendsofphp/php-cs-fixer": "^2.16",
         "fzaninotto/faker": "^1.9.1",
+        "laravel-shift/blueprint": "^1.5",
+        "laravel/dusk": "^5.11.0",
         "mockery/mockery": "^1.3.1",
+        "mpociot/laravel-test-factory-helper": "^2.1",
         "nunomaduro/collision": "^4.1",
-        "phpunit/phpunit": "^8.5"
+        "phpunit/phpunit": "^8.5",
+        "spatie/laravel-tail": "^4.2.0",
+        "symfony/thanks": "^1.2.5",
+        "squizlabs/php_codesniffer": "3.2.3"
     },
     "config": {
         "optimize-autoloader": true,
@@ -33,6 +122,9 @@
         }
     },
     "autoload": {
+        "files": [
+            "app/helpers.php"
+        ],
         "psr-4": {
             "App\\": "app/"
         },
@@ -58,6 +150,12 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "@php artisan nova:publish",
+            "@php artisan ide-helper:generate",
+            "@php artisan ide-helper:meta"
         ]
     }
 }

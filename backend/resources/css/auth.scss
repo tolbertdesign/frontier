@@ -1,0 +1,120 @@
+// Setup custom variables
+@import "./sass/variables";
+
+// Import Bulma and Buefy styles
+// @import '~bulma';
+// @import '~buefy/src/scss/buefy';
+
+// Import only what you need from Bulma
+@import "~bulma/sass/utilities/_all.sass";
+@import "~bulma/sass/base/_all.sass";
+@import "~bulma/sass/elements/button.sass";
+@import "~bulma/sass/elements/container.sass";
+@import "~bulma/sass/elements/title.sass";
+@import "~bulma/sass/form/_all.sass";
+@import "~bulma/sass/components/navbar.sass";
+@import "~bulma/sass/layout/hero.sass";
+@import "~bulma/sass/layout/section.sass";
+
+// @import '../assets/sass/variables';
+// @import '../assets/sass/functions';
+// @import '../assets/sass/elements/table';
+
+// @import "~bulma/sass/layout/hero";
+@import "~bulma/sass/layout/footer";
+@import "~bulma/sass/layout/section";
+@import "~bulma/sass/grid/tiles";
+@import "~bulma/sass/elements/box";
+// @import "~bulma/sass/elements/other";
+@import "~bulma/sass/elements/notification";
+@import "~bulma/sass/components/breadcrumb";
+@import "~bulma/sass/components/dropdown";
+@import "~bulma/sass/components/level";
+@import "~bulma/sass/components/media";
+@import "~bulma/sass/components/menu";
+@import "~bulma/sass/components/navbar";
+@import "~bulma/sass/components/tabs";
+
+// @import '../assets/sass/components/collapse';
+// @import '../assets/sass/components/datepicker';
+// @import '../assets/sass/components/dialog';
+// @import '../assets/sass/components/loading';
+// @import '../assets/sass/components/message';
+// @import '../assets/sass/components/modal';
+// @import '../assets/sass/components/notices';
+// @import '../assets/sass/components/switch';
+// @import '../assets/sass/components/table';
+
+/* @import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+} */
+
+// * {
+//   transition: .2s all;
+// }
+
+hr.style-eight {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr.style-eight:after {
+  content: "OR";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+.heroicon-outline { fill: #626262; }
+.heroicon-component-fill { fill: white; }
+.heroicon-component-accent { fill: var(--color-tertiary) }
+.heroicon-shadows { fill: #626262; opacity: .4 }
+
+
+nav a.is-active{ border-bottom-color: theme('borderColor.gray.500', currentColor)  }
+
+
+
+/* This fixes the bottom-of-page whitespace bug on android. */
+html { min-height: 100vh !important }
+
+:focus:not(:focus-visible) { outline: none }
+input::-webkit-input-placeholder { color: #7F8FA4 !important }
+.label:not(:last-child) { margin-bottom: 0 }
+body.modal-is-open #app { filter: blur(2.5px) }
+
+.cursor-pointer { cursor: pointer }
+.text-invalid { color: red } // brand-danger
+.error-msg { font-weight: 400; text-align: right; font-size: 11px }
+.error-msg.is-large { font-size: 15px }
+
+.hand-stack-bg {
+  background: url('/img/bg-hand-stack.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.booster-bash-bg {
+  background: url('/img/booster-bash-landing-page.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+@media (min-width: 813px) {
+  .gap-strike .strike:before { background-color: #222F3E }
+  .registration .parent_login { color: #000; font-weight:bold }
+  .registration  #print-terms { color: #000 }
+
+  .error-msg { color:red }
+  .btn-813-dk-grey-outline { border: 2px solid #576574; color: #576574  }
+  .btn-813-dk-grey-outline:hover { color: #576574 }
+  .d-813-none { display: none !important }
+  .d-813-flex { display: flex !important }
+  #print-terms { color:#000 !important }
+}

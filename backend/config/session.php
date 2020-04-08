@@ -166,7 +166,7 @@ return [
     |
     */
 
-    'secure' => env('SESSION_SECURE_COOKIE'),
+    'secure' => env('SESSION_SECURE_COOKIE', null),
 
     /*
     |--------------------------------------------------------------------------
@@ -188,9 +188,9 @@ return [
     |
     | This option determines how your cookies behave when cross-site requests
     | take place, and can be used to mitigate CSRF attacks. By default, we
-    | will set this value to "lax" since this is a secure default value.
+    | do not enable this as other CSRF protection services are in place.
     |
-    | Supported: "lax", "strict", "none", null
+    | Supported: "lax", "strict", "none"
     |
     */
 

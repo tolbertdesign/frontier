@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeekendChallenge Snapshop test for WeekendChallenge 1`] = `
+<p>
+  To: School Families
+  <br>When: Day Before Weekend Begins (typically Friday)
+  <br>Subject: Special Weekend Challenge!
+  <br><br>event name Families,
+  <br><br>Thank you again for supporting our school through the <strong>event name!</strong> <br><br>This weekend we are issuing a special challenge! Your child can earn a bonus prize simply by getting a qualifying pledge
+  <strong>this weekend only.</strong> Check out <a href="https://example.com">example.com</a> for details!
+  <br><br>And if you're looking for the easiest way to ask for a pledge, just upload a photo
+  of your student to <a href="https://example.com">example.com</a>
+  to create a personalized Student Star Video. This fun, hilarious video starring your child can be shared by
+  email or social media to connect with sponsors and ask for a pledge.
+  <br><br>Thank you again for helping our class!
+  <br><br>P.S. - If you haven't registered your child on <a href="https://example.com">example.com</a>,
+  search for your school or use our school registration code: <strong>registration code</strong> <br></p>
+`;

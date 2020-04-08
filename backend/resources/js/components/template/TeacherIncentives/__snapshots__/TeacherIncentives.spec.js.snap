@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeacherIncentives matches snapshot when user is a teacher and incentives are hidden 1`] = `<div class="text-center" hide_teacher_incentives="true"><img src="https://AWS_Bucket.s3.amazonaws.com/assets/images/teacher_incentives_mobile.png" class="p-2 md:hidden"> <img src="https://AWS_Bucket.s3.amazonaws.com/assets/images/teacher_incentives_desktop.png" class="p-2 md:inline hidden"></div>`;
+
+exports[`TeacherIncentives matches snapshot when user is a teacher and incentives are not hidden 1`] = `<div class="text-center"><img src="https://AWS_Bucket.s3.amazonaws.com/assets/images/teacher_incentives_mobile.png" class="p-2 md:hidden"> <img src="https://AWS_Bucket.s3.amazonaws.com/assets/images/teacher_incentives_desktop.png" class="p-2 md:inline hidden"></div>`;
+
+exports[`TeacherIncentives matches snapshot when user is not a teacher and incentives are not hidden 1`] = `<div class="text-center"><img src="https://AWS_Bucket.s3.amazonaws.com/assets/images/teacher_incentives_mobile.png" class="p-2 md:hidden"> <img src="https://AWS_Bucket.s3.amazonaws.com/assets/images/teacher_incentives_desktop.png" class="p-2 md:inline hidden"></div>`;

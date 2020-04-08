@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeacherEmailTemplates Snapshop test for TeacherEmailTemplates for English emails 1`] = `
+<accordionmodal-stub header="english" content="" footer="">
+  <div class="min-h-0 max-h-full">
+    <accordion-stub title="Team Day Email" content=""><template></template>
+      <div class="p-2">
+        <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+          <englishteamday-stub props="[object Object]"></englishteamday-stub>
+        </div>
+      </div>
+    </accordion-stub>
+    <accordion-stub title="Team Day 2 Email" content=""><template></template>
+      <div class="p-2">
+        <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+          <englishteamdaytwo-stub props="[object Object]"></englishteamdaytwo-stub>
+        </div>
+      </div>
+    </accordion-stub>
+    <accordion-stub title="Weekend Challenge Email" content=""><template></template>
+      <div class="p-2">
+        <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+          <englishweekendchallenge-stub props="[object Object]"></englishweekendchallenge-stub>
+        </div>
+      </div>
+    </accordion-stub>
+    <accordion-stub title="Day Before Event Email" content=""><template></template>
+      <div class="p-2">
+        <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+          <englishdayafterfunrun-stub props="[object Object]"></englishdayafterfunrun-stub>
+        </div>
+      </div>
+    </accordion-stub>
+    <accordion-stub title="Day After Event Email" content=""><template></template>
+      <div class="p-2">
+        <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+          <englishdaybeforefunrun-stub props="[object Object]"></englishdaybeforefunrun-stub>
+        </div>
+      </div>
+    </accordion-stub>
+  </div>
+</accordionmodal-stub>
+`;
+
+exports[`TeacherEmailTemplates Snapshop test for TeacherEmailTemplates for Spanish emails 1`] = `
+<accordionmodal-stub header="spanish" content="" footer="">
+  <div class="min-h-0 max-h-full">
+    <accordion-stub title="Spanish Team Day Email" content=""><template></template>
+      <div class="p-2">
+        <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+          <spanishteamday-stub props="[object Object]"></spanishteamday-stub>
+        </div>
+      </div>
+    </accordion-stub>
+    <accordion-stub title="Spanish Team Day 2 Email" content=""><template></template>
+      <div class="p-2">
+        <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+          <spanishteamdaytwo-stub props="[object Object]"></spanishteamdaytwo-stub>
+        </div>
+      </div>
+    </accordion-stub>
+    <accordion-stub title="Spanish Weekend Challenge Email" content=""><template></template>
+      <div class="p-2">
+        <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+          <spanishweekendchallenge-stub props="[object Object]"></spanishweekendchallenge-stub>
+        </div>
+      </div>
+    </accordion-stub>
+    <accordion-stub title="Spanish Day Before Event Email" content=""><template></template>
+      <div class="p-2">
+        <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+          <spanishdayafterfunrun-stub props="[object Object]"></spanishdayafterfunrun-stub>
+        </div>
+      </div>
+    </accordion-stub>
+    <accordion-stub title="Spanish Day After Event Email" content=""><template></template>
+      <div class="p-2">
+        <div class="modal-card-body bg-white p-4 md:p-6 text-sm sm:text-base md:text-lg">
+          <spanishdaybeforefunrun-stub props="[object Object]"></spanishdaybeforefunrun-stub>
+        </div>
+      </div>
+    </accordion-stub>
+  </div>
+</accordionmodal-stub>
+`;

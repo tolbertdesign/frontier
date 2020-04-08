@@ -9,8 +9,8 @@ Jest tests are meant to ensure **Vue.js** code quality in our projects (see [doc
 
 ## Projects that Use Jest Tests
 
-- Titan Dashboard
-- Titan Common
+- [Titan Dashboard](https://github.com/Boosterthon/titan-dashboard)
+- [Titan Common](https://github.com/Boosterthon/titan-dashboard)
 
 ## Code Coverage
 

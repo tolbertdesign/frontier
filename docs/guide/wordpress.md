@@ -1,5 +1,10 @@
-Wordpress Resources
-Plugin Credentials
-Advanced Custom Fields: username: dev@boosterthon.com Password: B00STER!
+---
+title: Wordpress Resources
+---
 
-Hide My Site: email: dev@boosterthon.com
+## Plugin Credentials
+
+| Plugin                 | Credentials                                          |
+| ---------------------- | ---------------------------------------------------- |
+| Advanced Custom Fields | username: _dev@boosterthon.com_ password: _B00STER!_ |
+| Hide My Site           | email: _dev@boosterthon.com_                         |

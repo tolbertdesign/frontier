@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReadMoreComponent Snapshop test for ReadMoreComponent 1`] = `
+<div>
+  <div class="readmore">
+    <!----> <span style="height: 200em;">text</span>
+    <!---->
+  </div>
+</div>
+`;

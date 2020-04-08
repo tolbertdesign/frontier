@@ -30,4 +30,31 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'sparkpost' => [
+        'secret' => env('SPARKPOST_SECRET'),
+    ],
+
+    'stripe' => [
+        'model'  => App\Entities\User::class,
+        'key'    => env('STRIPE_KEY'),
+        'secret' => env('STRIPE_SECRET'),
+    ],
+
+    'google' => [
+        'client_id'     => env('GOOGLE_CLIENT_ID'),
+        'client_secret' => env('GOOGLE_CLIENT_SECRET'),
+        'redirect'      => 'https://'
+            . (array_key_exists('SERVER_NAME', $_SERVER) ? $_SERVER['SERVER_NAME'] : env('APP_URL'))
+            . '/v3/oauth/google',
+    ],
+
+    'loggly' => [
+        'key' => env('LOGGLY_KEY'),
+        'tag' => str_replace(' ', '_', env('APP_NAME') . '_' . env('APP_ENV')),
+    ],
+    'zendesk' => [
+        'key' => env('ZENDESK_KEY'),
+        'subdomain' => env('ZENDESK_SUBDOMAIN')
+    ]
+
 ];

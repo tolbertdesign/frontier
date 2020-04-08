@@ -1,0 +1,37 @@
+<template>
+  <p>
+    Para: Familias de escuela
+    <br>Cuando: Día antes de fin de semana (generalmente Viernes)
+    <br>Tema: ¡Reto de fin de semana especial!
+    <br><br>
+    <strong>{{ props.event_name }}</strong> Familias,
+    <br><br>
+    Gracias de nuevo por su apoyar nuestra escuela con el <strong>{{ props.event_name }}</strong>.
+    <br><br>
+    ¡Este fin de semana estamos lanzando un reto especial!
+    Su estudiante puede recibir un premio adicional simplemente obteniendo una donación calificativo solo este fin de semana.
+    Revise <a :href="`https://${props.link}`">{{ props.link }}</a> para más detalles.
+    <br><br>
+    Y si usted quiere saber el modo más fácil para preguntar por una donación, solo tiene que subir
+    una foto de su estudiante en <a :href="`https://${props.link}`">{{ props.link }}</a> para crear un video personalizado de Student Star.
+    Es muy divertido y su estudiante es la estrella! Este video puede ser compartido por correo electrónico y en las redes sociales para conectarse con patrocinadores y pedir por donaciones.
+    <br><br>¡Muchas gracias por toda su ayuda para nuestra clase!
+    <br><br>Postada - Si todavía no a registrado su estudiante en <a :href="`https://${props.link}`">{{ props.link }}</a>, use
+    nuestro código de registro escolar: <strong>{{ props.registration_code }}</strong>
+    <br>
+  </p>
+</template>
+
+<script>
+export default {
+  name: 'WeekendChallenge',
+  status: 'prototype',
+  release: '1.0.0',
+  props: {
+    props: {
+      type: Object,
+      default: () => {},
+    },
+  },
+}
+</script>

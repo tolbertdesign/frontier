@@ -1,0 +1,70 @@
+.meter {
+  height: 24px; /* Can be anything */
+  position: relative;
+  background: #dadada;
+  border-radius: 25px;
+}
+.meter.is-small { height: 10px }
+.meter.is-small > span { background-color: #02518a }
+
+.meter > span {
+  display: block;
+  height: 100%;
+  top: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: absolute;
+  overflow: hidden;
+}
+.meter > span.meter-1 { background-color: #59c77f; z-index: 2 }
+.meter > span.meter-2 { background-color: #ff864d; z-index: 1 }
+
+
+
+/* .meter {
+    height: 0.75rem;
+    position: relative;
+    border-radius: 25px;
+}
+.meter.is-small {
+    height: 10px;
+}
+.meter.is-small > span {
+    background-color: $secondary;
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+    top: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+}
+.meter > span.meter-1 {
+    z-index: 2;
+}
+.meter > span.meter-2 {
+    background-color: $tertiary;
+    z-index: 1;
+}
+.meter > .valueDisplay {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    left: auto;
+    right: auto;
+    overflow: visible;
+}
+.meter.noValueDisplay {
+    height: auto;
+}
+.meter.noValueDisplay .valueDisplay {
+    top: 0px;
+    height: 0px;
+} */

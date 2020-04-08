@@ -1,0 +1,44 @@
+{
+
+    "links": {
+    "home": "Home",
+    "about": "About",
+    "english": "English version",
+    "french": "French version"
+  },
+  "home": {
+    "title": "Welcome",
+    "introduction": "This is an introduction in English."
+  },
+  "about": {
+    "title": "About",
+    "introduction": "This page is made to give you more informations."
+  },
+    "cookie_consent_message": "We use cookies to help make Boosterthon better. By visiting this site, you agree to our {0}",
+    "cookie_policy": "Cookie Policy",
+    "welcome": "👋 Welcome",
+    "back": "Back",
+    "register": "Join Now",
+    "login": "Sign in",
+    "logout": "Logout",
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "documents": "Documents",
+    "reports": "Reports",
+    "layouts": "Layouts",
+    "default_layout": "Default Layout",
+    "edit": "Edit",
+    "publish": "Publish",
+    "edit_profile": "Edit Profile",
+    "settings": "Settings",
+    "templates": "Templates",
+    "blog": "Blog",
+    "video": "Video",
+    "pledge_now": "Pledge Now",
+    "enter_pledge": "Enter Pledge",
+    "live_demo": "Live Demo",
+    "ok": "Ok",
+    "cancel": "Cancel",
+    "error_alert_title": "Oops...",
+    "error_alert_text": "Something went wrong! Please try again."
+}

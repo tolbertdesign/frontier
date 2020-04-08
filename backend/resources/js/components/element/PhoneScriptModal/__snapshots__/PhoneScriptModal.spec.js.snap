@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneScriptModal Snapshop test for PhoneScriptModal 1`] = `
+<div class="m-4 rounded-xl overflow-hidden shadow-lg">
+  <div class="bg-white">
+    <header class="modal-card-head bg-white relative items-start">
+      <p class="font-bold modal-card-title text-center text-xl">
+
+      </p>
+    </header>
+    <section class="modal-card-body has-text-centered">
+      <p class="script-body"></p> <br>
+      <p class="script-body"></p> <br>
+      <p class="script-body"></p> <br>
+      <p class="script-body"></p> <br>
+      <p class="script-body"></p> <br>
+      <p class="script-body"></p> <br>
+      <p class="script-body"></p> <br>
+      <p class="script-body"></p> <br>
+      <p class="script-body"></p> <br> <button class="px-8 rounded-full button inline-block is-secondary shadow-md font-bold centered close-button">
+
+      </button>
+    </section>
+  </div>
+</div>
+`;

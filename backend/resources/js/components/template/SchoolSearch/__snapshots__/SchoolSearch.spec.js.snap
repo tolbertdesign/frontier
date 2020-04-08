@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SchoolSearch Snapshop test for SchoolSearch 1`] = `
+<div class="montserrat">
+  <h2 class="text-30 mb-4">
+    school search header
+  </h2>
+  <div class="form-group mx-auto"><input placeholder="placeholder school search" type="text" name="school_search" required="required" class="form-control text-16 mx-auto">
+    <ul class="list-group" style="display: none;"></ul>
+  </div>
+  <p class="text-12">
+    search help 1
+    <a href="#" data-target="#schoolSearchHelpModal" data-toggle="modal" class="text-primary font-weight-bold">
+      search help 2
+    </a>
+    search help 3
+  </p>
+</div>
+`;

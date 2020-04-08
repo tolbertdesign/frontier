@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PreviousSponsorShareButton Snapshop test for PreviousSponsorShareButton 1`] = `
+<div class="share-button flex flex-col"><button class="icon-above text-white shadow rounded-full px-8 font-normal py-2 cursor-pointer inline-block text-lg hover:text-white bg-secondary bg-secondary view-previous-sponsors">
+    <fontawesomeicon-stub icon="users" class="text-5xl fa-w-20"></fontawesomeicon-stub>
+    view previous sponsors button
+  </button></div>
+`;

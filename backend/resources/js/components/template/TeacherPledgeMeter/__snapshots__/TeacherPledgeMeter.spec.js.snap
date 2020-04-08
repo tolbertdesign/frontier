@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TeacherPledgeMeter matches snapshot 1`] = `
+<div class="px-4 pt-6">
+  <h2 class="mb-2 text-2xl font-semibold capitalize">
+    Test - Classroom Grade Display Name
+  </h2>
+  <p class="mb-4">
+
+  </p>
+  <div class="mb-4">
+    <progressmeter-stub color="primary" backgroundcolorclass="bg-grey-light" goal="100" firstmeter="0" secondmeter="0" valuetodisplay=""></progressmeter-stub>
+    <div class="mt-2">
+      <h3 class="font-bold">
+        : $ of $
+      </h3>
+      <h4 class="capitalize">
+        per Reading Challenge
+      </h4>
+    </div>
+    <div class="flex items-center justify-center mt-4"><button class="w-64 px-12 py-3 text-white rounded-full bg-secondary focus:outline-none focus:shadow-outline">
+
+      </button></div>
+  </div>
+</div>
+`;

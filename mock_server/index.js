@@ -63,3 +63,11 @@ export const User = {
 }
 
 export default User
+
+// Roosevelt Franklin
+// Harvey Kneeslapper
+// Professor Hastings
+// Don Music
+// Herbert Birdsfoot
+// Kermit the Frog
+// Bruno the Trashman

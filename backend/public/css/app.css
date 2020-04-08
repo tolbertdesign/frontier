@@ -1,0 +1,8 @@
+:root {
+  --some-color: red;
+}
+
+.example {
+  color: red;
+  color: var(--some-color);
+}

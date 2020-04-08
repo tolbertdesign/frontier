@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingOverlay Snapshop test for LoadingOverlay 1`] = `<bloading-stub active="true" isfullpage="true" animation="fade" cancancel="true" oncancel="function _default() {}"></bloading-stub>`;

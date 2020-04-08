@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ParticipantGroup Snapshop test for ParticipantGroup with one participant 1`] = `
+<div class="hidden lg:block">
+  <div class="lg:flex flex-wrap justify-center">
+    <div class="lg:w-1/2">
+      <participantcard-stub program="[object Object]" participant="[object Object]" group="0"></participantcard-stub>
+    </div>
+  </div>
+  <div class="px-8">
+    <participantrewards-stub program="[object Object]" participant="[object Object]"></participantrewards-stub>
+  </div>
+</div>
+`;
+
+exports[`ParticipantGroup Snapshop test for ParticipantGroup with two participants 1`] = `
+<div class="hidden lg:block">
+  <div class="lg:flex flex-wrap">
+    <div class="lg:w-1/2 right-border">
+      <participantcard-stub program="[object Object]" participant="[object Object]" group="0"></participantcard-stub>
+    </div>
+    <div class="lg:w-1/2 right-border">
+      <participantcard-stub program="[object Object]" participant="[object Object]" group="0"></participantcard-stub>
+    </div>
+  </div>
+  <div class="px-8">
+    <participantrewards-stub program="[object Object]" participant="[object Object]"></participantrewards-stub>
+  </div>
+  <div class="px-8">
+    <participantrewards-stub program="[object Object]" participant="[object Object]"></participantrewards-stub>
+  </div>
+</div>
+`;

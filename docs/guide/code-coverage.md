@@ -2,6 +2,9 @@
 title: Code Coverage
 categories: engineering, testing
 ---
+
+## Code Coverage
+
 Below are links to our current code coverage:
 
 ## Titan Dashboard

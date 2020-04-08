@@ -14,7 +14,11 @@ return [
     */
 
     'paths' => [
-        resource_path('views'),
+        // FIFO (First In, First Out)
+        // If view is defined here, then it "wins"
+        resource_path('views'), // Default
+        // Falls back to here if not in section above
+        resource_path('views_second'),
     ],
 
     /*
