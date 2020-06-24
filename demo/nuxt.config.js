@@ -1,5 +1,6 @@
 export default {
   srcDir: __dirname,
+  target: 'static',
   modules: ['@nuxtjs/auth', '@nuxtjs/axios', '@nuxtjs/pwa', 'nuxt-buefy'],
   auth: {
     redirect: {
@@ -29,6 +30,22 @@ export default {
     css: true,
     materialDesignIcons: true,
   },
+  tailwindcss: {
+    configPath: '~/tailwind.config.js',
+    cssPath: '~/assets/css/tailwind.css',
+    exposeConfig: true,
+  },
+  build: {
+    postcss: {
+      preset: {
+        features: {
+          // Fixes: https://github.com/tailwindcss/tailwindcss/issues/1190#issuecomment-546621554
+          'focus-within-pseudo-class': false,
+        },
+      },
+    },
+  },
   buildModules: ['@nuxtjs/svg', '@nuxtjs/tailwindcss'],
   components: true,
+  css: ['~/assets/css/tailwind.css'],
 }
