@@ -1,5 +1,0 @@
----
-title: BaseAccordion
----
-
-## BaseAccordion

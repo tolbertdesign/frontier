@@ -1,5 +1,0 @@
----
-title: SchoolSearch
----
-
-## SchoolSearch

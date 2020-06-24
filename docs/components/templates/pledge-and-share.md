@@ -1,5 +1,0 @@
----
-title: PledgeAndShare
----
-
-## PledgeAndShare

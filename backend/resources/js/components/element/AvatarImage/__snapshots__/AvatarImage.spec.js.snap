@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`AvatarImage Snapshop test for not small AvatarImage and check computed class for size 1`] = `<img alt="alt" src="src" class="w-16 h-16 shadow border rounded-full">`;
-
-exports[`AvatarImage Snapshop test for small AvatarImage and check computed class for size 1`] = `<img alt="alt" src="src" class="w-9 h-9 shadow border rounded-full">`;

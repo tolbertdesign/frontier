@@ -1,5 +1,0 @@
----
-title: BaseDialog
----
-
-## BaseDialog

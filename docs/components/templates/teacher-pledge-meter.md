@@ -1,5 +1,0 @@
----
-title: TeacherPledgeMeter
----
-
-## TeacherPledgeMeter

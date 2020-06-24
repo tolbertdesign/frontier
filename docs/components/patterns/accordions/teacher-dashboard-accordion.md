@@ -1,5 +1,0 @@
----
-title: TeacherDashboardAccordion
----
-
-## TeacherDashboardAccordion

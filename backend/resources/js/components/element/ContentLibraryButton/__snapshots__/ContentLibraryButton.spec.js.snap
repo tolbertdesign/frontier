@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`ContentLibraryButton Snapshop test for ContentLibraryButton 1`] = `
-<a href="https://boosterthoncharacter.com/" target="_blank" class="bg-secondary px-4 py-2 rounded-full text-white hover:text-white">
-  <fontawesomeicon-stub icon="far,external-link-square"></fontawesomeicon-stub> <span class="pl-1">content library button</span>
-</a>
-`;

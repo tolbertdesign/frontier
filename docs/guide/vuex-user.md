@@ -1,3 +1,0 @@
----
-title: Vuex User Module
----

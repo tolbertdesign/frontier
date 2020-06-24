@@ -1,9 +1,0 @@
-/dist/
-/tests/unit/coverage/
-node_modules/*
-**/node_modules/*
-vendor/*
-**/vendor/*
-public/*
-src/libs/dist
-backend/public/js/*

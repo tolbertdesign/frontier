@@ -1,3 +1,0 @@
----
-title: Notification Sidebar Toggle
----

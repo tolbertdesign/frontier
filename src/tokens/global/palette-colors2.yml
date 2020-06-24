@@ -1,9 +1,0 @@
-global:
-  type: color
-  category: color
-  cssProperties:
-  - background-color
-  - 'border*color'
-  - box-shadow
-  - fill
-  - color

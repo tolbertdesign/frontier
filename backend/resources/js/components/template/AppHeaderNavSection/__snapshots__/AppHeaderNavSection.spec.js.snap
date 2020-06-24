@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`AppHeaderNavSection Snapshop test for AppHeaderNavSection 1`] = `
-<div class="nav-section m-0 p-2 px-4 text-grey-darker font-bold border-secondary bg-grey-light">
-  <div class="slot"></div>
-</div>
-`;

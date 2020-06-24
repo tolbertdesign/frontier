@@ -1,5 +1,0 @@
----
-title: BaseInput
----
-
-## BaseInput

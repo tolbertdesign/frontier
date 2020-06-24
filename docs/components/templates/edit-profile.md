@@ -1,5 +1,0 @@
----
-title: EditProfilePage
----
-
-## EditProfilePage

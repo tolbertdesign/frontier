@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`PledgeButton Snapshop test for PledgeButton and confirm computed fr_code value 1`] = `<roundedbutton-stub text="Enter Pledge" link="/v3/tkdashboard/?redirect=auth/login/good fr code/view-participant/pledge" class="is-primary"></roundedbutton-stub>`;

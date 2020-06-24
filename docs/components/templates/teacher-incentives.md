@@ -1,5 +1,0 @@
----
-title: TeacherIncentives
----
-
-## TeacherIncentives

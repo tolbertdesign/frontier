@@ -1,5 +1,0 @@
----
-title: HowToGetPledges
----
-
-## HowToGetPledges

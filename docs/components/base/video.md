@@ -1,5 +1,0 @@
----
-title: BaseVideo
----
-
-## BaseVideo

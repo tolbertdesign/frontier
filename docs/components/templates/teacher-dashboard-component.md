@@ -1,5 +1,0 @@
----
-title: TeacherDashboardComponent
----
-
-## TeacherDashboardComponent

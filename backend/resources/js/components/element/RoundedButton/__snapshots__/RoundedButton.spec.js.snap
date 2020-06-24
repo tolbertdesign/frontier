@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`RoundedButton Snapshop test for RoundedButton 1`] = `
-<a href="link" class="max-w-xs text-24 button shadow is-medium is-rounded is-fullwidth font-semibold mx-auto">
-  text
-</a>
-`;

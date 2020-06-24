@@ -1,5 +1,0 @@
----
-title: ContactsTable
----
-
-## ContactsTable

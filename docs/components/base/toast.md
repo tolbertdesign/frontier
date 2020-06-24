@@ -1,5 +1,0 @@
----
-title: BaseToast
----
-
-## BaseToast

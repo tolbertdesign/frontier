@@ -1,5 +1,0 @@
----
-title: ParticipantRewardsCard
----
-
-## ParticipantRewardsCard

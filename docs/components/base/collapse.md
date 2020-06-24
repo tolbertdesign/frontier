@@ -1,5 +1,0 @@
----
-title: BaseCollapse
----
-
-## BaseCollapse
