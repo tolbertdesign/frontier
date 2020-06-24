@@ -1,9 +1,11 @@
 <template>
   <div
     class="flex items-center justify-center h-screen bg-center bg-cover"
-    style="background-image: url('/img/school_empty_hallway_shutterstock_472440757.jpg')"
+    style="
+      background-image: url('/img/school_empty_hallway_shutterstock_472440757.jpg');
+    "
   >
-    <form ref="loginform" @submit.prevent="login()" class="w-1/4 p-4 mx-auto">
+    <form ref="loginform" class="w-1/4 p-4 mx-auto" @submit.prevent="login">
       <h1 class="mb-2 text-xl font-semibold">
         Login
       </h1>
