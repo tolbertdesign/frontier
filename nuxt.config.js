@@ -1,5 +1,4 @@
 export default {
-  srcDir: __dirname,
   target: 'static',
   modules: ['@nuxtjs/auth', '@nuxtjs/axios', '@nuxtjs/pwa', 'nuxt-buefy'],
   auth: {
