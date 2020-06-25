@@ -8,8 +8,8 @@
 
     <div>
       <BTable
-        class="mt-4"
         ref="table"
+        class="mt-4"
         :paginated="true"
         per-page="5"
         detail-key="id"
