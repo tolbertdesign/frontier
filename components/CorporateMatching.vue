@@ -33,12 +33,7 @@
         aria-current-label="Current page"
       >
         <template slot-scope="props">
-          <BTableColumn
-            field="company_name"
-            label="Company Name"
-            sortable
-            searchable
-          >
+          <BTableColumn field="company_name" label="Company Name" sortable>
             {{ props.row.company_name }}
           </BTableColumn>
 

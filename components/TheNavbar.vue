@@ -9,8 +9,7 @@
               class="flex items-center text-gray-200 hover:text-white"
             >
               <TheLogo class="w-8 h-8" />
-
-              <h1 class="ml-2 text-2xl font-bold">Titan Admin</h1>
+              <h1 class="ml-2 text-2xl font-bold">Frontier</h1>
             </nuxt-link>
           </div>
 
@@ -41,23 +40,19 @@
 
         <div class="hidden md:block">
           <div class="flex items-center ml-4 md:ml-6">
+            <a
+              href="https://github.com/tolbertdesign/frontier/tree/develop"
+              target="_blank"
+              class="p-1 text-gray-400 border-2 border-transparent rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700"
+            >
+              <GithubIcon />
+            </a>
+
             <button
               class="p-1 text-gray-400 border-2 border-transparent rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700"
               aria-label="Notifications"
             >
-              <svg
-                class="w-6 h-6"
-                stroke="currentColor"
-                fill="none"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
-                />
-              </svg>
+              <BellIcon />
             </button>
 
             <!-- Profile dropdown -->
@@ -72,7 +67,7 @@
                 >
                   <img
                     class="w-8 h-8 rounded-full"
-                    src="/img/avatar.png"
+                    src="/img/minion.png"
                     alt=""
                   />
                 </button>
@@ -186,14 +181,14 @@
       <div class="pt-4 pb-3 border-t border-gray-700">
         <div class="flex items-center px-5">
           <div class="flex-shrink-0">
-            <img class="w-10 h-10 rounded-full" src="/img/avatar.png" alt="" />
+            <img class="w-10 h-10 rounded-full" src="/img/minion.png" alt="" />
           </div>
           <div class="ml-3">
             <div class="text-base font-medium leading-none text-white">
-              Tom Cook
+              Demo User
             </div>
             <div class="mt-1 text-sm font-medium leading-none text-gray-400">
-              tom@example.com
+              demo.user@example.com
             </div>
           </div>
         </div>
@@ -220,8 +215,11 @@
 </template>
 
 <script>
+import {BellIcon, GithubIcon} from 'vue-feather-icons'
+
 export default {
   name: 'TheNavbar',
+  components: {BellIcon, GithubIcon},
   data: () => ({
     showMenu: false,
     showProfileMenu: false,

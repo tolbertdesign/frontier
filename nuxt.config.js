@@ -26,7 +26,7 @@ export default {
     credentials: true,
   },
   buefy: {
-    css: true,
+    css: false,
     materialDesignIcons: true,
   },
   tailwindcss: {
