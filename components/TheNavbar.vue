@@ -45,7 +45,7 @@
               target="_blank"
               class="p-1 text-gray-400 border-2 border-transparent rounded-full hover:text-white focus:outline-none focus:text-white focus:bg-gray-700"
             >
-              <GithubIcon />
+              <MenuIcon />
             </a>
 
             <button
@@ -215,11 +215,12 @@
 </template>
 
 <script>
-import {BellIcon, GithubIcon} from 'vue-feather-icons'
+import {BellIcon, MenuIcon} from 'vue-feather-icons'
+// import {BellIcon, MenuIcon} from '@vue-hero-icons/solid'
 
 export default {
   name: 'TheNavbar',
-  components: {BellIcon, GithubIcon},
+  components: {BellIcon, MenuIcon},
   data: () => ({
     showMenu: false,
     showProfileMenu: false,

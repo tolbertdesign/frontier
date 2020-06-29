@@ -1,3 +1,1 @@
-# Frontier
-
-<https://app.tolbert.design>
+# tolbertdesign/frontier

@@ -1,6 +1,12 @@
 export default {
   target: 'static',
-  modules: ['@nuxtjs/auth', '@nuxtjs/axios', '@nuxtjs/pwa', 'nuxt-buefy'],
+  modules: [
+    '@nuxtjs/auth',
+    '@nuxtjs/axios',
+    '@nuxt/content',
+    '@nuxtjs/pwa',
+    'nuxt-buefy',
+  ],
   auth: {
     redirect: {
       login: '/login',
@@ -29,6 +35,7 @@ export default {
     css: false,
     materialDesignIcons: true,
   },
+  content: {},
   tailwindcss: {
     configPath: '~/tailwind.config.js',
     cssPath: '~/assets/css/tailwind.css',

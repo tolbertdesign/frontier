@@ -1,7 +1,19 @@
-inbox:
- - [] portal-vue
- - [] color-mode
-    content
-    offline indicator
-    intersection observer
-    resize observer
+Projects:
+    Chore:
+        You can write plain text notes/descriptions wherever you want
+        [ ] @high Press Alt+D to mark a todo as done
+        [ ] Completed todos can show a timestamp
+        [ ] Press it again to undo the **action**
+        [ ] @today Press Alt+C to mark a todo as _cancelled_
+        [ ] Press it again to undo the action
+        [ ] @feature You can add tags using the @ symbol, like this
+        [ ] @critical There are ~some special~, customizable tags
+        [ ] @low Press Alt+S to mark a todo as started
+        [ ] We are even doing some natural language processing @est(1 day and 20 minutes)
+    Style:
+        [ ] in-video info cards
+        [ ] Always show captions
+        [ ] Include auto-generated captions (when available)
+    Fix:
+
+Archive:
