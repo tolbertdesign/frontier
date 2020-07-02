@@ -1,15 +1,15 @@
 <template>
-  <div class="corporate-matching">
+  <div class="data-table">
     <header>
       <h2 class="text-lg font-semibold">
-        Corporate Matching for Roosevelt Franklin Elementary Fun Run
+        Data Table
       </h2>
     </header>
 
     <div>
       <BTable
         ref="table"
-        class="mt-4"
+        class="w-full mt-4"
         :paginated="true"
         per-page="5"
         detail-key="id"
@@ -26,22 +26,33 @@
         :default-sort="['company_name', 'asc']"
         :checked-rows.sync="checkedRows"
         :checkbox-position="checkboxPosition"
-        :data="isEmpty ? [] : companies"
+        :data="isEmpty ? [] : data"
         aria-next-label="Next page"
         aria-previous-label="Previous page"
         aria-page-label="Page"
         aria-current-label="Current page"
       >
         <template slot-scope="props">
-          <BTableColumn field="company_name" label="Company Name" sortable>
+          <BTableColumn
+            field="company_name"
+            label="Company Name"
+            cell-class="w-3/6 max-w-xs"
+            sortable
+            width="w-full"
+          >
             {{ props.row.company_name }}
           </BTableColumn>
 
-          <BTableColumn field="amount" label="Amount" sortable>
+          <BTableColumn
+            field="amount"
+            label="Amount"
+            sortable
+            cell-class="w-1/6"
+          >
             {{ props.row.amount }}
           </BTableColumn>
 
-          <BTableColumn field="status" label="Status" sortable>
+          <BTableColumn field="status" label="Status" sortable width="4rem">
             <span
               class="inline-block w-24 px-2 py-1 text-xs tracking-wide text-center uppercase border rounded"
             >
@@ -53,7 +64,10 @@
             field="submitted_at"
             label="Date Submitted"
             sortable
-            :visible="false"
+            :visible="true"
+            width="10rem"
+            numeric
+            cell-class="text-right border-red-700"
           >
             {{ new Date(props.row.submitted_at).toLocaleDateString() }}
           </BTableColumn>
@@ -89,10 +103,14 @@
 </template>
 
 <script>
-const companies = require('@/static/data/companies.json')
-
 export default {
-  name: 'CorporateMatching',
+  name: 'DataTable',
+  props: {
+    data: {
+      type: Array,
+      default: () => [{}],
+    },
+  },
   data() {
     return {
       // Valid DTD Statuses
@@ -108,7 +126,6 @@ export default {
       checkedRows: [],
       checkboxPosition: 'left',
       showDetailIcon: true,
-      companies,
       // columns: [
       //   {
       //     field: 'id',

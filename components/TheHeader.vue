@@ -4,7 +4,9 @@
       <div class="flex items-center">
         <TheLogo class="w-8 h-8" />
 
-        <h1 class="ml-2 text-2xl font-bold">Titan Admin</h1>
+        <h1 class="ml-2 text-2xl font-bold">
+          <slot>Frontier</slot>
+        </h1>
       </div>
     </div>
   </header>

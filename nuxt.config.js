@@ -54,4 +54,5 @@ export default {
   buildModules: ['@nuxtjs/svg', '@nuxtjs/tailwindcss'],
   components: true,
   css: ['~/assets/css/tailwind.css'],
+  plugins: ['~/plugins/components'],
 }

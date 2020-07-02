@@ -1,6 +1,6 @@
 <template>
   <div class="container w-full p-6">
-    <CorporateMatching />
+    <CorporateMatchTable />
   </div>
 </template>
 

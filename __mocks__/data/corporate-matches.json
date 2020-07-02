@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "company_name": "Chick-fil-A",
+    "amount": 10000,
+    "status": "submitted",
+    "submitted_at": "2016-10-15 13:43:27"
+  },
+  {
+    "id": 2,
+    "company_name": "Coca-Cola Company",
+    "amount": 10000,
+    "status": "completed",
+    "submitted_at": "2016-12-15 06:00:53"
+  },
+  {
+    "id": 3,
+    "company_name": "Cox Enterprises",
+    "amount": 10000,
+    "status": "completed",
+    "submitted_at": "2016-04-26 06:26:28"
+  },
+  {
+    "id": 4,
+    "company_name": "Home Depot",
+    "amount": 10000,
+    "status": "completed",
+    "submitted_at": "2016-04-10 10:28:46"
+  },
+  {
+    "id": 5,
+    "company_name": "AT&T",
+    "amount": 10000,
+    "status": "pending",
+    "submitted_at": "2016-12-06 14:38:38"
+  },
+  {
+    "id": 6,
+    "company_name": "Turner",
+    "amount": 10000,
+    "status": "pending",
+    "submitted_at": "2016-12-06 14:38:38"
+  },
+  {
+    "id": 7,
+    "company_name": "CNN",
+    "amount": 10000,
+    "status": "pending",
+    "submitted_at": "2016-12-06 14:38:38"
+  },
+  {
+    "id": 8,
+    "company_name": "Apple",
+    "amount": 10000,
+    "status": "pending",
+    "submitted_at": "2016-12-06 14:38:38"
+  },
+  {
+    "id": 9,
+    "company_name": "Hartsfield-Jackson Airport",
+    "amount": 10000,
+    "status": "pending",
+    "submitted_at": "2016-12-06 14:38:38"
+  },
+  {
+    "id": 10,
+    "company_name": "AutoTrader.com",
+    "amount": 10000,
+    "status": "pending",
+    "submitted_at": "2016-12-06 14:38:38"
+  }
+]
